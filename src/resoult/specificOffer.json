@@ -1,0 +1,143 @@
+{   
+    "title": "Desarrollador/a Odoo (Remoto. 100% Teletrabajo)",
+    "id": "ca89537fbd4a0cbc745115fa162e65",
+    "state": 1,
+    "creationDate": "2023-05-17T17:39:32.000+0000",
+    "updateDate": "2023-05-17T17:39:32.000+0000",
+    "city": "Madrid",
+    "externalUrlForm": "",
+    "blocked": false,
+    "applications": 2,
+    "province": {
+       "id": 33,
+       "value": "Madrid"
+    },
+    "experienceMin": {
+       "id": 2,
+       "value": "Al menos 1 año"
+    },
+    "category": {
+       "id": 150,
+       "value": "Informática y telecomunicaciones"
+    },
+    "subcategory": {
+       "id": 3124,
+       "value": "Programación"
+    },
+    "studiesMin": {
+       "id": 35,
+       "value": "Ciclo Formativo Grado Medio"
+    },
+    "residence": {
+       "id": 0,
+       "value": "(Seleccionar)"
+    },
+    "country": {
+       "id": 17,
+       "value": "España"
+    },
+    "contractType": {
+       "id": 1,
+       "value": "Indefinido"
+    },
+    "journey": {
+       "id": 1,
+       "value": "Completa"
+    },
+    "subSegment": 23,
+    "profile": {
+       "id": "48565757555910865788472011093930213263",
+       "name": "AFB Consultoría de Talento",
+       "description": "Consultor de Selección, Búsqueda Directa y Evaluación de Personas. El ser Freelance e Independiente no impide contar entre sus clientes tanto con empresas multinacionales conocidas como con organizaciones más pequeñas en diversos sectores, como IT, Ingeniería, Energía, Construcción, Financiero, Servicios, Comunicación, Logística, Farma...etc. Ofrezco a los candidatos discreción, confidencialidad y la mayor transparencia posible, así como un trato cercano.",
+       "province": {
+          "id": 33,
+          "value": "Madrid"
+       },
+       "web": "http://www.antoniofernandezbravo.com/",
+       "numberWorkers": 3,
+       "logoUrl": "https://multimedia.infojobs.net/api/v1/tenants/c7e2b9c1-8480-43b0-ad9e-000c17aa2cbb/domains/718302b6-5343-43d3-a8a3-829dc3da0893/buckets/6f3ab1cc-5920-4f4e-b131-46a4587a0e1f/images/bc/bc087641-a8a1-4ab1-a3b2-67555366acc1?jwt=eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE2MjQ1MzA2MTUsInJxcyI6IkdFVFxcL3RlbmFudHMvYzdlMmI5YzEtODQ4MC00M2IwLWFkOWUtMDAwYzE3YWEyY2JiL2RvbWFpbnMvNzE4MzAyYjYtNTM0My00M2QzLWE4YTMtODI5ZGMzZGEwODkzL2J1Y2tldHMvNmYzYWIxY2MtNTkyMC00ZjRlLWIxMzEtNDZhNDU4N2EwZTFmL2ltYWdlcy9iYy9iYzA4NzY0MS1hOGExLTRhYjEtYTNiMi02NzU1NTM2NmFjYzEiLCJtZXRhZGF0YSI6eyJydWxlIjp7InZlcnNpb24iOiIyMDE2LTEwIiwiYWN0aW9ucyI6W119fX0.GbryAYtZpwAEN7y5C7gjfXWf4n1oOY8jswF_2bDvU7PM-0WSZdoJxobBMEra_jdXqkRGZnNnuPj5Ziuz68Eo24a_otqLDbEHlfhTfZPuMgCfTC-Qp7VwpIh76TXQcH9q2Vq3cz5Rk-3ULuMeHbtq5zLPSensGlNwn21amcYmDJdRwr5JIwXyqVAgeY7LfFsWDRSIht1H7RiPjs866DpWKLMA_wXcMRe7CSnOEgy1TYPq-zL9Amo0pOyABFDfbTyHEV3BiMLzPo4F1aHFTNRGE9MY1JBbdUDZePI_vKFy67Ekb-cJ8AGlZ6lza_avJVlm6B2rR0pI8AoC0NtqzeUgdg&AccessKeyId=d724d9a53d95a810",
+       "url": "http://www.antoniofernandezbravo.com/",
+       "corporateWebsiteUrl": "/afb-consultoria-de-talento/em-i48565757555910865788472011093930213263",
+       "websiteUrl": "",
+       "hidden": false,
+       "typeIndustry": {
+          "id": 28,
+          "value": "Servicios y tecnología de la información"
+       },
+       "country": {
+          "id": 17,
+          "value": "España"
+       },
+       "corporateResponsive": false,
+       "showCorporativeHeader": false,
+       "clientId": 1713213387562,
+       "followable": true
+    },
+    "cityPD": 3533,
+    "zipCode": "00000",
+    "latitude": 0,
+    "longitude": 0,
+    "exactLocation": false,
+    "department": "",
+    "vacancies": 1,
+    "minRequirements": "-Experiencia mínima de 1 año en Desarrollo Odoo -Se valora, pero no es imprescindible, conocimiento funcional de las distintas áreas de gestión de una empresa ventas CRM logísticao etc, conocimientos de python html xml, así como de Docker SQL y herramientas de testing.",
+    "description": "Buscamos para Empresa de Soluciones de Hardware, DESARROLLADOR/A ODOO en REMOTO, 100% TELETRABAJO) Se trata de un puesto estable, con contrato indefinido con la propia Empresa de Soluciones de Hardware (nosotros hacemos la primera parte del proceso de selección). La banda salarial estaría entre 25.000 y 30.000 euros brutos anuales en función de la experiencia y conocimientos que se aporte, con opción de retribución flexible con beneficios sociales. Es un puesto en el que se puede teletrabajar totalmente y un horario de lunes a jueves de 8 a 17.30 y viernes de 8 a 14h, con flexibilidad horaria.Funciones: -Corregir bugs y aportar mejoras en Odoo -Dar respuesta a los tickets que abran los usuarios y formarlos -Investigar formas de desarrollar tests unitarios -Preparar el ERP para una futura migración -Documentar los desarrollos que se realicen -Ayudar al departamento de sistemas",
+    "desiredRequirements": "",
+    "commissions": "",
+    "contractDuration": "",
+    "referenceId": "",
+    "detailedStudiesId": -3,
+    "studying": false,
+    "showPay": true,
+    "multiProvince": false,
+    "maxPay": {
+       "amount": 30000,
+       "amountId": 280,
+       "periodId": 3,
+       "periodValue": "Bruto/año",
+       "amountValue": "30.000 €"
+    },
+    "minPay": {
+       "amount": 25000,
+       "amountId": 1330,
+       "periodId": 3,
+       "periodValue": "Bruto/año",
+       "amountValue": "25.000 €"
+    },
+    "schedule": "",
+    "jobLevel": {
+       "id": 2,
+       "value": "Empleado/a"
+    },
+    "staffInCharge": {
+       "id": 0,
+       "value": "(Seleccionar)"
+    },
+    "hasKillerQuestions": 0,
+    "hasOpenQuestions": 0,
+    "upsellings": {
+       "highlightHomeMonth": false,
+       "highlightHomeWeek": false,
+       "highlightSubcategory": false,
+       "highlightLogo": false,
+       "highlightColor": false,
+       "highlightUrgent": false,
+       "highlightStandingOffer": false
+    },
+    "epreselec": false,
+    "fiscalAddress": "C/ Aeronave nº14 3ºC, 28042 MADRID, MADRID, España",
+    "shouldAskExportConsent": true,
+    "exportConsentName": "::1713213387562",
+    "link": "https://www.infojobs.net/madrid/desarrollador-odoo-remoto.-100-teletrabajo/of-ica89537fbd4a0cbc745115fa162e65",
+    "active": true,
+    "archived": false,
+    "deleted": false,
+    "disponibleForFullVisualization": true,
+    "availableForVisualization": true,
+    "skillsList": [
+       {
+          "skill": "Odoo"
+       }
+    ],
+    "salaryDescription": "25.000€ - 30.000€ Bruto/año"
+ }

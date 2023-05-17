@@ -1,0 +1,68 @@
+{
+    "items": [
+        {
+           "id": "ca89537fbd4a0cbc745115fa162e65",
+           "title": "Desarrollador/a Odoo (Remoto. 100% Teletrabajo)",
+           "province": {
+              "id": 33,
+              "value": "Madrid"
+           },
+           "city": "Madrid",
+           "link": "https://www.infojobs.net/madrid/desarrollador-odoo-remoto.-100-teletrabajo/of-ica89537fbd4a0cbc745115fa162e65",
+           "category": {
+              "id": 150,
+              "value": "Informática y telecomunicaciones"
+           },
+           "contractType": {
+              "id": 1,
+              "value": "Indefinido"
+           },
+           "subcategory": {
+              "id": 3124,
+              "value": "Programación"
+           },
+           "salaryMin": {
+              "id": 1330,
+              "value": "25.000 €"
+           },
+           "salaryMax": {
+              "id": 280,
+              "value": "30.000 €"
+           },
+           "salaryPeriod": {
+              "id": 3,
+              "value": "Bruto/año"
+           },
+           "experienceMin": {
+              "id": 2,
+              "value": "Al menos 1 año"
+           },
+           "workDay": {
+              "id": 1,
+              "value": "Completa"
+           },
+           "study": {
+              "id": 35,
+              "value": "Ciclo Formativo Grado Medio"
+           },
+           "published": "2023-05-17T17:39:32.000Z",
+           "updated": "2023-05-17T17:39:32.000Z",
+           "author": {
+              "id": "48565757555910865788472011093930213263",
+              "name": "AFB Consultoría de Talento",
+              "uri": "https://www.infojobs.net/afb-consultoria-de-talento/em-i48565757555910865788472011093930213263",
+              "logoUrl": "https://multimedia.infojobs.net/api/v1/tenants/c7e2b9c1-8480-43b0-ad9e-000c17aa2cbb/domains/718302b6-5343-43d3-a8a3-829dc3da0893/buckets/6f3ab1cc-5920-4f4e-b131-46a4587a0e1f/images/bc/bc087641-a8a1-4ab1-a3b2-67555366acc1?jwt=eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE2MjQ1MzA2MTUsInJxcyI6IkdFVFxcL3RlbmFudHMvYzdlMmI5YzEtODQ4MC00M2IwLWFkOWUtMDAwYzE3YWEyY2JiL2RvbWFpbnMvNzE4MzAyYjYtNTM0My00M2QzLWE4YTMtODI5ZGMzZGEwODkzL2J1Y2tldHMvNmYzYWIxY2MtNTkyMC00ZjRlLWIxMzEtNDZhNDU4N2EwZTFmL2ltYWdlcy9iYy9iYzA4NzY0MS1hOGExLTRhYjEtYTNiMi02NzU1NTM2NmFjYzEiLCJtZXRhZGF0YSI6eyJydWxlIjp7InZlcnNpb24iOiIyMDE2LTEwIiwiYWN0aW9ucyI6W119fX0.GbryAYtZpwAEN7y5C7gjfXWf4n1oOY8jswF_2bDvU7PM-0WSZdoJxobBMEra_jdXqkRGZnNnuPj5Ziuz68Eo24a_otqLDbEHlfhTfZPuMgCfTC-Qp7VwpIh76TXQcH9q2Vq3cz5Rk-3ULuMeHbtq5zLPSensGlNwn21amcYmDJdRwr5JIwXyqVAgeY7LfFsWDRSIht1H7RiPjs866DpWKLMA_wXcMRe7CSnOEgy1TYPq-zL9Amo0pOyABFDfbTyHEV3BiMLzPo4F1aHFTNRGE9MY1JBbdUDZePI_vKFy67Ekb-cJ8AGlZ6lza_avJVlm6B2rR0pI8AoC0NtqzeUgdg&AccessKeyId=d724d9a53d95a810",
+              "corporateResponsive": false,
+              "showCorporativeHeader": false
+           },
+           "requirementMin": "-Experiencia mínima de 1 año en Desarrollo Odoo-Se valora, pero no es imprescindible, conocimiento funcional de las distintas áreas de gestión de una empresa ventas CRM logísticao etc, conocimientos de python html xml, así como de Docker SQL y herramientas de testing.",
+           "bold": false,
+           "applications": "0",
+           "subSegment": 23,
+           "executive": false,
+           "salaryDescription": "25.000€ - 30.000€ Bruto/año",
+           "urgent": false,
+           "color": false
+        }
+    ]
+}
