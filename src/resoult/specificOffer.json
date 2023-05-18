@@ -1,143 +1,150 @@
-{   
-    "title": "Desarrollador/a Odoo (Remoto. 100% Teletrabajo)",
-    "id": "ca89537fbd4a0cbc745115fa162e65",
-    "state": 1,
-    "creationDate": "2023-05-17T17:39:32.000+0000",
-    "updateDate": "2023-05-17T17:39:32.000+0000",
-    "city": "Madrid",
-    "externalUrlForm": "",
-    "blocked": false,
-    "applications": 2,
-    "province": {
-       "id": 33,
-       "value": "Madrid"
-    },
-    "experienceMin": {
-       "id": 2,
-       "value": "Al menos 1 año"
-    },
-    "category": {
-       "id": 150,
-       "value": "Informática y telecomunicaciones"
-    },
-    "subcategory": {
-       "id": 3124,
-       "value": "Programación"
-    },
-    "studiesMin": {
-       "id": 35,
-       "value": "Ciclo Formativo Grado Medio"
-    },
-    "residence": {
-       "id": 0,
-       "value": "(Seleccionar)"
-    },
-    "country": {
-       "id": 17,
-       "value": "España"
-    },
-    "contractType": {
-       "id": 1,
-       "value": "Indefinido"
-    },
-    "journey": {
-       "id": 1,
-       "value": "Completa"
-    },
-    "subSegment": 23,
-    "profile": {
-       "id": "48565757555910865788472011093930213263",
-       "name": "AFB Consultoría de Talento",
-       "description": "Consultor de Selección, Búsqueda Directa y Evaluación de Personas. El ser Freelance e Independiente no impide contar entre sus clientes tanto con empresas multinacionales conocidas como con organizaciones más pequeñas en diversos sectores, como IT, Ingeniería, Energía, Construcción, Financiero, Servicios, Comunicación, Logística, Farma...etc. Ofrezco a los candidatos discreción, confidencialidad y la mayor transparencia posible, así como un trato cercano.",
-       "province": {
-          "id": 33,
-          "value": "Madrid"
-       },
-       "web": "http://www.antoniofernandezbravo.com/",
-       "numberWorkers": 3,
-       "logoUrl": "https://multimedia.infojobs.net/api/v1/tenants/c7e2b9c1-8480-43b0-ad9e-000c17aa2cbb/domains/718302b6-5343-43d3-a8a3-829dc3da0893/buckets/6f3ab1cc-5920-4f4e-b131-46a4587a0e1f/images/bc/bc087641-a8a1-4ab1-a3b2-67555366acc1?jwt=eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE2MjQ1MzA2MTUsInJxcyI6IkdFVFxcL3RlbmFudHMvYzdlMmI5YzEtODQ4MC00M2IwLWFkOWUtMDAwYzE3YWEyY2JiL2RvbWFpbnMvNzE4MzAyYjYtNTM0My00M2QzLWE4YTMtODI5ZGMzZGEwODkzL2J1Y2tldHMvNmYzYWIxY2MtNTkyMC00ZjRlLWIxMzEtNDZhNDU4N2EwZTFmL2ltYWdlcy9iYy9iYzA4NzY0MS1hOGExLTRhYjEtYTNiMi02NzU1NTM2NmFjYzEiLCJtZXRhZGF0YSI6eyJydWxlIjp7InZlcnNpb24iOiIyMDE2LTEwIiwiYWN0aW9ucyI6W119fX0.GbryAYtZpwAEN7y5C7gjfXWf4n1oOY8jswF_2bDvU7PM-0WSZdoJxobBMEra_jdXqkRGZnNnuPj5Ziuz68Eo24a_otqLDbEHlfhTfZPuMgCfTC-Qp7VwpIh76TXQcH9q2Vq3cz5Rk-3ULuMeHbtq5zLPSensGlNwn21amcYmDJdRwr5JIwXyqVAgeY7LfFsWDRSIht1H7RiPjs866DpWKLMA_wXcMRe7CSnOEgy1TYPq-zL9Amo0pOyABFDfbTyHEV3BiMLzPo4F1aHFTNRGE9MY1JBbdUDZePI_vKFy67Ekb-cJ8AGlZ6lza_avJVlm6B2rR0pI8AoC0NtqzeUgdg&AccessKeyId=d724d9a53d95a810",
-       "url": "http://www.antoniofernandezbravo.com/",
-       "corporateWebsiteUrl": "/afb-consultoria-de-talento/em-i48565757555910865788472011093930213263",
-       "websiteUrl": "",
-       "hidden": false,
-       "typeIndustry": {
-          "id": 28,
-          "value": "Servicios y tecnología de la información"
-       },
-       "country": {
-          "id": 17,
-          "value": "España"
-       },
-       "corporateResponsive": false,
-       "showCorporativeHeader": false,
-       "clientId": 1713213387562,
-       "followable": true
-    },
-    "cityPD": 3533,
-    "zipCode": "00000",
-    "latitude": 0,
-    "longitude": 0,
-    "exactLocation": false,
-    "department": "",
-    "vacancies": 1,
-    "minRequirements": "-Experiencia mínima de 1 año en Desarrollo Odoo -Se valora, pero no es imprescindible, conocimiento funcional de las distintas áreas de gestión de una empresa ventas CRM logísticao etc, conocimientos de python html xml, así como de Docker SQL y herramientas de testing.",
-    "description": "Buscamos para Empresa de Soluciones de Hardware, DESARROLLADOR/A ODOO en REMOTO, 100% TELETRABAJO) Se trata de un puesto estable, con contrato indefinido con la propia Empresa de Soluciones de Hardware (nosotros hacemos la primera parte del proceso de selección). La banda salarial estaría entre 25.000 y 30.000 euros brutos anuales en función de la experiencia y conocimientos que se aporte, con opción de retribución flexible con beneficios sociales. Es un puesto en el que se puede teletrabajar totalmente y un horario de lunes a jueves de 8 a 17.30 y viernes de 8 a 14h, con flexibilidad horaria.Funciones: -Corregir bugs y aportar mejoras en Odoo -Dar respuesta a los tickets que abran los usuarios y formarlos -Investigar formas de desarrollar tests unitarios -Preparar el ERP para una futura migración -Documentar los desarrollos que se realicen -Ayudar al departamento de sistemas",
-    "desiredRequirements": "",
-    "commissions": "",
-    "contractDuration": "",
-    "referenceId": "",
-    "detailedStudiesId": -3,
-    "studying": false,
-    "showPay": true,
-    "multiProvince": false,
-    "maxPay": {
-       "amount": 30000,
-       "amountId": 280,
-       "periodId": 3,
-       "periodValue": "Bruto/año",
-       "amountValue": "30.000 €"
-    },
-    "minPay": {
-       "amount": 25000,
-       "amountId": 1330,
-       "periodId": 3,
-       "periodValue": "Bruto/año",
-       "amountValue": "25.000 €"
-    },
-    "schedule": "",
-    "jobLevel": {
-       "id": 2,
-       "value": "Empleado/a"
-    },
-    "staffInCharge": {
-       "id": 0,
-       "value": "(Seleccionar)"
-    },
-    "hasKillerQuestions": 0,
-    "hasOpenQuestions": 0,
-    "upsellings": {
-       "highlightHomeMonth": false,
-       "highlightHomeWeek": false,
-       "highlightSubcategory": false,
-       "highlightLogo": false,
-       "highlightColor": false,
-       "highlightUrgent": false,
-       "highlightStandingOffer": false
-    },
-    "epreselec": false,
-    "fiscalAddress": "C/ Aeronave nº14 3ºC, 28042 MADRID, MADRID, España",
-    "shouldAskExportConsent": true,
-    "exportConsentName": "::1713213387562",
-    "link": "https://www.infojobs.net/madrid/desarrollador-odoo-remoto.-100-teletrabajo/of-ica89537fbd4a0cbc745115fa162e65",
-    "active": true,
-    "archived": false,
-    "deleted": false,
-    "disponibleForFullVisualization": true,
-    "availableForVisualization": true,
-    "skillsList": [
-       {
-          "skill": "Odoo"
-       }
-    ],
-    "salaryDescription": "25.000€ - 30.000€ Bruto/año"
- }
+{
+   "title": "Technical Lead Frontend (Angular)",
+   "id": "c8c051a6e341be8efaa8ff09c4386a",
+   "state": 1,
+   "creationDate": "2023-05-18T18:07:42.000+0000",
+   "updateDate": "2023-05-18T18:07:42.000+0000",
+   "city": "Las Rozas De Madrid",
+   "externalUrlForm": "",
+   "blocked": false,
+   "applications": 0,
+   "province": {
+      "id": 33,
+      "value": "Madrid"
+   },
+   "experienceMin": {
+      "id": 4,
+      "value": "Al menos 4 años"
+   },
+   "category": {
+      "id": 150,
+      "value": "Informática y telecomunicaciones"
+   },
+   "subcategory": {
+      "id": 3124,
+      "value": "Programación"
+   },
+   "studiesMin": {
+      "id": 125,
+      "value": "Grado"
+   },
+   "residence": {
+      "id": 3,
+      "value": "España"
+   },
+   "country": {
+      "id": 17,
+      "value": "España"
+   },
+   "contractType": {
+      "id": 1,
+      "value": "Indefinido"
+   },
+   "journey": {
+      "id": 1,
+      "value": "Completa"
+   },
+   "subSegment": 22,
+   "profile": {
+      "id": "819349524534204501135034954640",
+      "name": "SOFTTEK",
+      "description": "Somos una organización con impacto global\n\nSomos Softtek, un GRUPO TECNOLÓGICO global con implantación en Europa, América del Norte, América Latina y Asia. Con 40 años de trayectoria y un equipo formado por más de 16.000 Softtekians, impulsamos a las organizaciones a ACELERAR sus capacidades digitales para ser competitivas en la nueva economía. Queremos abordar contigo las infinitas oportunidades que nos brinda el futuro. Softtek, FUTURE TOGETHER.\n\n\nCon un propósito transversal y honesto\n\nGENERAMOS VALOR a través de la tecnología a nuestros clientes, colaboradores y en las comunidades en donde operamos. Contribuimos a reducir la BRECHA DIGITAL y lo hacemos desde la agilidad, el compromiso y la COLABORACIÓN intercolectiva. Sabemos que el gran CAMBIO CULTURAL está en marcha y que será liderado por personas con talento y autodeterminación. Queremos, en definitiva, dejar huella contigo en este mundo y TRASCENDER.\n\n\nHaz carrera en Softtek\n\n•Diseña tu propio plan de carrera.\n•Resuelve retos con impacto global.\n•Aprende, experimenta e innova con nuevas tecnologías.\n•Crece en un ambiente creativo, inclusivo y flexible.\n•Disfruta Softtek Life: beneficios para ti y para tu familia, bienestar y balance de vida.\n\n¡Somos una empresa flexible y llena de oportunidades!\n\t\t\t\t\t            ",
+      "province": {
+         "id": 33,
+         "value": "Madrid"
+      },
+      "web": "http://www.softtek.eu",
+      "numberWorkers": 16000,
+      "logoUrl": "https://multimedia.infojobs.net/api/v1/tenants/c7e2b9c1-8480-43b0-ad9e-000c17aa2cbb/domains/718302b6-5343-43d3-a8a3-829dc3da0893/buckets/6f3ab1cc-5920-4f4e-b131-46a4587a0e1f/images/62/623ef05c-a36e-4bf1-97c1-907318dde5d3?jwt=eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE2NzEyMDA1NzAsInJxcyI6IkdFVFxcL3RlbmFudHMvYzdlMmI5YzEtODQ4MC00M2IwLWFkOWUtMDAwYzE3YWEyY2JiL2RvbWFpbnMvNzE4MzAyYjYtNTM0My00M2QzLWE4YTMtODI5ZGMzZGEwODkzL2J1Y2tldHMvNmYzYWIxY2MtNTkyMC00ZjRlLWIxMzEtNDZhNDU4N2EwZTFmL2ltYWdlcy82Mi82MjNlZjA1Yy1hMzZlLTRiZjEtOTdjMS05MDczMThkZGU1ZDMiLCJtZXRhZGF0YSI6eyJydWxlIjp7InZlcnNpb24iOiIyMDE2LTEwIiwiYWN0aW9ucyI6W119fX0.Zxl63sAJMWIfI2jWfP0d1JW8aAZkOce8jgOlpN0R9z9bt5aVo6a8cQKvzEFl_o6WMyrYUPMYqUJHw1dDLNUkhgTC5FYh7qbs8Ose253dq3ygLHtTN6erv4tW4U7SL3u6R7XvSmk4icPIIVCg3HJozCxhcLhxA990P5DuGIXpaSg2kVYIxZ1jx_p8faweT23aLicgistoPaKeSoT4wUqLrtY-uuVWjrs0Vj9y_On3sBnewlXtW6Lz1nb7ejLN0-YVC7f9HSbYwoHHqVVmcDCzNlc3H2E3DY3omG4AMTuXBb2yv2R59bmFfqfQLYikm0pe9Ztu2MvvoTLhrwQLQsW3BQ&AccessKeyId=d724d9a53d95a810",
+      "url": "http://www.softtek.eu",
+      "corporateWebsiteUrl": "//softtek.ofertas-trabajo.infojobs.net",
+      "websiteUrl": "",
+      "hidden": false,
+      "typeIndustry": {
+         "id": 28,
+         "value": "Servicios y tecnología de la información"
+      },
+      "country": {
+         "id": 17,
+         "value": "España"
+      },
+      "corporateResponsive": false,
+      "showCorporativeHeader": false,
+      "clientId": 8600769736,
+      "followable": true
+   },
+   "cityPD": 3525,
+   "zipCode": "28018",
+   "latitude": 0,
+   "longitude": 0,
+   "exactLocation": false,
+   "department": "",
+   "vacancies": 1,
+   "minRequirements": "-Mínimo 4 años de experiencia en desarrollo web con Angular +8.\n- Valorable experiencia en maquetación.\n- Analítica web: tealium/google tag manager\n-Experiencia en herramientas de integración continúa Jenkins/Paas, Git/GitHub, Nexus\n-Experiencia en la coordinación de equipos de trabajo.",
+   "description": "¿Qué buscamos?\n\nEn Softtek estamos en búsqueda de un/a Desarrollador Front con al menos 3 años de experiencia como Senior Frontend Angular para trabajar en nuestra área de Digital, participando en diferentes proyectos pertenecientes a diversos sectores.\n\n¿Cómo será tu día a día?\n- Habitualmente te integrarás en equipos Agile.\n--Proyecto con las últimas tecnologías.\n- Serás parte de la toma de decisiones sobre tecnologías, librerías, patrones de diseño, buenas prácticas de desarrollo y seguridad.\n\n\n¿Por qué ser Softtekian?\n\n· Contrato indefinido.\n· Posibilidad de teletrabajo, horario flexible y mejoras para favorecer la conciliación a través de nuestro programa BetterWork.\n· 24 días de vacaciones.\n· Seguro médico.\n· Retribución flexible: tarjeta transporte, tarjeta restaurante, cheque guardería o seguro médico familiares.\n· Tarde de cumpleaños libre (también por el cumple de tus hijos).\n· Club del empleado: ofertas y promociones exclusivas por ser Softtekian.\n· Planes de formación: idiomas, tecnologías y soft skills.\n· Oportunidad de movilidad interna: contamos con presencia internacional y diversas sedes en España.\n\n¿Quiénes somos?\n\nSomos Softtek, un grupo tecnológico global que integra una cultura única, beneficios y un gran desarrollo, tanto profesional como humano, con presencia en más de 20 países y 14 sedes en España. Generamos valor a través de la tecnología y nuestro objetivo es dejar huella y trascender en el ámbito de la transformación digital. Ya sumamos más 16.000 softtekians alrededor del mundo y seguimos creciendo.\n\nEn 2022 hemos sido reconocidos por la Lista Forbes como una de las 75 mejores empresas para trabajar en España, destacando por la flexibilidad y la personalización de la experiencia de nuestros colaboradores. Creemos que las personas con talento y autodeterminación son capaces de crear cosas asombrosas. ¿Nos acompañas en esta aventura? #FutureTogether",
+   "desiredRequirements": "Valorable ingles nivel medio-Alto",
+   "commissions": "",
+   "contractDuration": "",
+   "referenceId": "RRHH-46049 -KTOV",
+   "detailedStudiesId": 0,
+   "studying": false,
+   "showPay": false,
+   "multiProvince": false,
+   "schedule": "",
+   "jobLevel": {
+      "id": 2,
+      "value": "Empleado/a"
+   },
+   "staffInCharge": {
+      "id": 0,
+      "value": "(Seleccionar)"
+   },
+   "hasKillerQuestions": 1,
+   "hasOpenQuestions": 1,
+   "upsellings": {
+      "highlightHomeMonth": false,
+      "highlightHomeWeek": false,
+      "highlightSubcategory": false,
+      "highlightLogo": false,
+      "highlightColor": false,
+      "highlightUrgent": false,
+      "highlightStandingOffer": false
+   },
+   "epreselec": false,
+   "fiscalAddress": "P.I. Pocomaco, Sector I - Ed. Diana - Portal Centro, 4ª pl., 15006 A Coruña, A CORUÑA, España",
+   "shouldAskExportConsent": true,
+   "exportConsentName": "::8600769736",
+   "link": "https://www.infojobs.net/las-rozas-de-madrid/technical-lead-frontend-angular/of-ic8c051a6e341be8efaa8ff09c4386a",
+   "active": true,
+   "archived": false,
+   "deleted": false,
+   "disponibleForFullVisualization": true,
+   "availableForVisualization": true,
+   "skillsList": [
+      {
+         "skill": "Agile"
+      },
+      {
+         "skill": "Front-end"
+      },
+      {
+         "skill": "Angular"
+      },
+      {
+         "skill": "CSS"
+      },
+      {
+         "skill": "HTML5"
+      },
+      {
+         "skill": "JavaScript"
+      },
+      {
+         "skill": "Desarrollo web"
+      },
+      {
+         "skill": "Microfrontends"
+      }
+   ],
+   "salaryDescription": "Salario no disponible"
+}

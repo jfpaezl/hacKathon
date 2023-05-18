@@ -7,6 +7,8 @@ export const GlobalStyles = createGlobalStyle`
     --textEtiqueta: #004a23;
     --textButtons: #167db7;
     --hoberButtons: #e8f2f8;
+    --colorButton: #ff6340;
+    --colorButtonHover: #ff4e27;
 
     --fondoComponents: #ffffff;
     --fondoEtiqueta: #e6f6ed;
@@ -37,6 +39,9 @@ export const GlobalStyles = createGlobalStyle`
   }
   *, *:before, *:after {
       box-sizing: inherit;
+  }
+  h3, h1, h2, p{
+    margin: 0;
   }
   img,
   picture {

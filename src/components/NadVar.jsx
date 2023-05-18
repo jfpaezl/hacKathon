@@ -10,10 +10,10 @@ export function NadVar (){
                     <NavLink to='/' ><img className='logo' src="src/assets/img/image.svg" alt="Logo de info jobs" /></NavLink>
                 </div>
                 <nav className="nav">
-                    <NavLink activeClassName="active-link" className='navlink'>Empleos</NavLink>
-                    <NavLink activeClassName="active-link" className='navlink'>Mis ofertas</NavLink>
-                    <NavLink activeClassName="active-link" className='navlink'>CV</NavLink>
-                    <NavLink activeClassName="active-link" className='navlink'>Quien me ve</NavLink>
+                    <NavLink className='navlink'>Empleos</NavLink>
+                    <NavLink className='navlink'>Mis ofertas</NavLink>
+                    <NavLink className='navlink'>CV</NavLink>
+                    <NavLink className='navlink'>Quien me ve</NavLink>
                 </nav> 
             </div>
         </NadVarCss>
@@ -65,5 +65,4 @@ export const NadVarCss = styled.header`
         color: var(--text2);
         padding: 0 .8rem;
     }
-
 `

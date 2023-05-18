@@ -1,0 +1,42 @@
+//importar estilos
+import { OfferHeroCss } from '../../styles/offer/OfferHeroCss'
+
+//importar servicios
+import { TiempoTranscurrido } from "../../services/CalcTime";
+
+
+export function OfferHero ({oferta}) {
+    const tiempo = TiempoTranscurrido(oferta.creationDate)
+    return(
+        <OfferHeroCss className="hero">
+            <header className="header">
+                <div>
+                    <img src={oferta.profile.logoUrl} alt="imagen de prueba" />
+                </div>
+                <div>
+                    <span>Proceso online</span>
+                    <h2>{oferta.title}</h2>
+                    <a href={oferta.profile.web}>{oferta.profile.name}</a>
+                </div>
+            </header>
+            <div className="datos">
+                <ul>
+                    <li>{oferta.province.value}, <span className='c1'>{oferta.profile.province.value}</span> ({oferta.profile.country.value}) </li>
+                    <li>Solo teletrabajo</li>
+                    <li>Publicada <span className='c2'>hace {tiempo}</span> </li>
+                    <li>Salario: {oferta.salaryDescription}</li>
+                </ul>
+                <ul>
+                    <li>Experiencia mínima: {oferta.experienceMin.value}</li>
+                    <li>Tipo de contrato: {oferta.contractType.value}, jornada {oferta.journey.value}</li>
+                </ul>
+                <div className="boton">
+                    <button >
+                        INSCRIBIRME EN ESTA OFERTA
+                    </button>
+                </div> 
+            </div>                    
+        </OfferHeroCss>
+    )
+}
+
