@@ -21,7 +21,7 @@ export function OfferHero ({oferta}) {
             </header>
             <div className="datos">
                 <ul>
-                    <li>{oferta.province.value}, <span className='c1'>{oferta.profile.province.value}</span> ({oferta.profile.country.value}) </li>
+                    <li>{oferta.city}, <span className='c1'>{oferta.profile.province.value}</span> ({oferta.profile.country.value}) </li>
                     <li>Solo teletrabajo</li>
                     <li>Publicada <span className='c2'>hace {tiempo}</span> </li>
                     <li>Salario: {oferta.salaryDescription}</li>

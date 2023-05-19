@@ -2,6 +2,9 @@ import styled from "styled-components"
 import oferta from '../../resoult/specificOffer.json'
 
 export function OfferMain () {
+    const iterarSpan = oferta.skillsList.map((item, index)=>{
+        return <span key={index}>{item.skill}</span>
+    })
     return(
         <OfferMainCss>
             <h3>Requisitos</h3>
@@ -23,8 +26,11 @@ export function OfferMain () {
                     }
                 </div>               
             </div>
-
-            
+            <div>
+                <strong>Requisitos mínimos</strong>
+                <p>{oferta.minRequirements}</p>
+            </div>
+           
         </OfferMainCss>
     )
 }
@@ -40,10 +46,12 @@ export const OfferMainCss = styled.main`
     gap: 1.5rem;
 
     h3{
-        font-size: 50%;
+        font-size: 2.5rem
     }
     .spans{
         display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
         span{
             background-color: var(--hoberButtons);
             padding: .5rem;
