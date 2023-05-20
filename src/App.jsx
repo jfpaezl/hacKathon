@@ -3,8 +3,8 @@ import store from './store'
 import { Provider } from "react-redux"
 
 import Error404 from "./containers/errors/Error404"
-import Profile from "./containers/pages/Profile"
 import Home from "./containers/pages/Home"
+import Apply from "./containers/pages/Apply"
 
 function App() {
 
@@ -14,7 +14,7 @@ function App() {
         <Routes>
           <Route path="*" element={<Error404/>}/>
           <Route path="/" element={<Home/>}/>
-          <Route path="/perfil" element={<Profile/>}/>
+          <Route path="/aplicar" element={<Apply/>}/>
         </Routes>
       </Router>
     </Provider>
