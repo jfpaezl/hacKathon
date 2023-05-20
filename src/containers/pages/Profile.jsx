@@ -1,10 +1,11 @@
 import { connect } from "react-redux";
 import Layout from "../../hocks/layout/Layout";
+import { Test } from "../../components/offer/Test";
 
 function Profile (){
     return(
         <Layout>
-            <h1>perfil</h1>
+            <Test/>
         </Layout>
     )
 }

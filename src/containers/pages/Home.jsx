@@ -32,8 +32,8 @@ export default connect(mapStateToProp,{
 export const HomeCss = styled.main`
     display: flex;
     flex-direction: column;
-    margin: 2rem 7.6rem;
-    max-width: 96rem;
+    width: 96rem;
+    margin: 2rem auto;
     gap: 1rem;
     font-size: 1.3rem;
 `
