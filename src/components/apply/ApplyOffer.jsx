@@ -2,7 +2,12 @@ import { styled } from "styled-components"
 import oferta from '../../resoult/specificOffer.json'
 import { File } from "../../styles/Iconos"
 
+//importar servicios
+import { TiempoTranscurrido } from "../../services/CalcTime";
+import { Test } from "./Test";
+
 export function ApplyOffer (){
+    const tiempo = TiempoTranscurrido(oferta.creationDate)
     return(
         <ApplyOfferCss>
             <section className="container contDes" >
@@ -48,7 +53,34 @@ export function ApplyOffer (){
             </section>
             <section className="container">   
                 <h3>Datos de la oferta</h3>
+                <ul>
+                    <li>
+                        <strong>Empresa</strong>
+                        <p>{oferta.profile.name}</p>
+                    </li>
+                    <li>
+                        <strong>Localización</strong>
+                        <p>{oferta.city}, <span className='c1'>{oferta.profile.province.value}</span> ({oferta.profile.country.value})</p>
+                    </li>
+                    <li>
+                        <strong>Salario</strong>
+                        <p>{oferta.salaryDescription}</p>
+                    </li>
+                    <li>
+                        <strong>Fecha de publicación</strong>
+                        <p>{tiempo}</p>
+                    </li>
+                    <li>
+                        <strong>Experiencia mínima</strong>
+                        <p>{oferta.experienceMin.value}</p>
+                    </li>
+                    <li>
+                        <strong>Tipo de contrato</strong>
+                        <p>{oferta.contractType.value}, jornada {oferta.journey.value}</p>
+                    </li>
+                </ul>
             </section>
+            <Test/>
         </ApplyOfferCss>
     )
 }
@@ -141,5 +173,11 @@ export const ApplyOfferCss = styled.div`
         display: none;
     }
 
-    
+    ul{
+        padding-left: 2rem;
+        font-size: 1.3rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
 `

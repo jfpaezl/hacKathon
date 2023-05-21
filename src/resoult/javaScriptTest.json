@@ -1,126 +1,139 @@
 {
     "JavaScript": [
-            {
-                "question": "¿Cuál de las siguientes opciones NO es un tipo de dato primitivo en JavaScript?",
-                "options": [
-                "String",
-                "Number",
-                "Boolean",
-                "Array"
-                ],
-                "answer": "Array"
-            },
-            {
-                "question": "¿Cuál es el resultado de la siguiente expresión en JavaScript? 10 + \"20\"",
-                "options": [
-                "30",
-                "\"1020\"",
-                "1020",
-                "Error"
-                ],
-                "answer": "\"1020\""
-            },
-            {
-                "question": "¿Qué método se utiliza para agregar un elemento al final de un arreglo en JavaScript?",
-                "options": [
-                "push()",
-                "pop()",
-                "shift()",
-                "unshift()"
-                ],
-                "answer": "push()"
-            },
-            {
-                "question": "¿Cuál de los siguientes métodos se utiliza para combinar dos arreglos en JavaScript?",
-                "options": [
-                "concat()",
-                "slice()",
-                "join()",
-                "reduce()"
-                ],
-                "answer": "concat()"
-            },
-            {
-                "question": "¿Cuál es la forma correcta de escribir un comentario de una sola línea en JavaScript?",
-                "options": [
-                "/* comentario */",
-                "// comentario",
-                "<!-- comentario -->",
-                "**comentario**"
-                ],
-                "answer": "// comentario"
-            },
-            {
-                "question": "¿Cuál de los siguientes operadores se utiliza para comparar la igualdad estricta en JavaScript?",
-                "options": [
-                "=",
-                "==",
-                "===",
-                "!="
-                ],
-                "answer": "==="
-            },
-            {
-                "question": "¿Cuál de los siguientes métodos se utiliza para obtener la longitud de una cadena en JavaScript?",
-                "options": [
-                "length()",
-                "count()",
-                "size()",
-                "sizeOf()"
-                ],
-                "answer": "length()"
-            },
-            {
-                "question": "¿Cuál de las siguientes opciones muestra la forma correcta de declarar una función en JavaScript?",
-                "options": [
-                "function myFunction() { }",
-                "myFunction() { }",
-                "def myFunction() { }",
-                "var myFunction = () => { }"
-                ],
-                "answer": "function myFunction() { }"
-            },
-            {
-                "question": "¿Cuál es el resultado de la siguiente expresión en JavaScript? typeof null",
-                "options": [
-                "\"object\"",
-                "\"null\"",
-                "\"undefined\"",
-                "\"number\""
-                ],
-                "answer": "\"object\""
-            },
-            {
-                "question": "¿Cuál de los siguientes métodos se utiliza para convertir una cadena a minúsculas en JavaScript?",
-                "options": [
-                "toUpperCase()",
-                "toLowerCase()",
-                "convertLowerCase()",
-                "convertToLowerCase()"
-                ],
-                "answer": "toLowerCase()"
-            },
-            {
-                "question": "¿Cuál de los siguientes métodos se utiliza para redondear un número al entero más cercano en JavaScript?",
-                "options": [
-                "round()",
-                "ceil()",
-                "floor()",
-                "random()"
-                ],
-                "answer": "round()"
-            },
-            {
-            "question": "¿Cuál de las siguientes opciones muestra la forma correcta de acceder a un elemento en un objeto en JavaScript?",
+        {
+            "id": 1,
+            "question": "¿Cuál de las siguientes opciones NO es un tipo de dato primitivo en JavaScript?",
             "options": [
-                "object[element]",
-                "object.element",
-                "object{element}",
-                "objectelement"
+            "String",
+            "Number",
+            "Boolean",
+            "Array"
             ],
-            "answer": "object.element"
-            },
-            {
+            "answer": "Array"
+        },
+        {
+            "id": 2,
+            "question": "¿Cuál es el resultado de la siguiente expresión en JavaScript? 10 + \"20\"",
+            "options": [
+            "30",
+            "\"1020\"",
+            "1020",
+            "Error"
+            ],
+            "answer": "\"1020\""
+        },
+        {
+            "id": 3,
+            "question": "¿Qué método se utiliza para agregar un elemento al final de un arreglo en JavaScript?",
+            "options": [
+            "push()",
+            "pop()",
+            "shift()",
+            "unshift()"
+            ],
+            "answer": "push()"
+        },
+        {
+            "id": 4,
+            "question": "¿Cuál de los siguientes métodos se utiliza para combinar dos arreglos en JavaScript?",
+            "options": [
+            "concat()",
+            "slice()",
+            "join()",
+            "reduce()"
+            ],
+            "answer": "concat()"
+        },
+        {   
+            "id": 5,
+            "question": "¿Cuál es la forma correcta de escribir un comentario de una sola línea en JavaScript?",
+            "options": [
+            "/* comentario */",
+            "// comentario",
+            "<!-- comentario -->",
+            "**comentario**"
+            ],
+            "answer": "// comentario"
+        },
+        {
+            "id": 6,
+            "question": "¿Cuál de los siguientes operadores se utiliza para comparar la igualdad estricta en JavaScript?",
+            "options": [
+            "=",
+            "==",
+            "===",
+            "!="
+            ],
+            "answer": "==="
+        },
+        {
+            "id": 7,
+            "question": "¿Cuál de los siguientes métodos se utiliza para obtener la longitud de una cadena en JavaScript?",
+            "options": [
+            "length()",
+            "count()",
+            "size()",
+            "sizeOf()"
+            ],
+            "answer": "length()"
+        },
+        {
+            "id": 8,
+            "question": "¿Cuál de las siguientes opciones muestra la forma correcta de declarar una función en JavaScript?",
+            "options": [
+            "function myFunction() { }",
+            "myFunction() { }",
+            "def myFunction() { }",
+            "var myFunction = () => { }"
+            ],
+            "answer": "function myFunction() { }"
+        },
+        {
+            "id": 9,
+            "question": "¿Cuál es el resultado de la siguiente expresión en JavaScript? typeof null",
+            "options": [
+            "\"object\"",
+            "\"null\"",
+            "\"undefined\"",
+            "\"number\""
+            ],
+            "answer": "\"object\""
+        },
+        {
+            "id": 10,
+            "question": "¿Cuál de los siguientes métodos se utiliza para convertir una cadena a minúsculas en JavaScript?",
+            "options": [
+            "toUpperCase()",
+            "toLowerCase()",
+            "convertLowerCase()",
+            "convertToLowerCase()"
+            ],
+            "answer": "toLowerCase()"
+        },
+        {
+            "id": 11,
+            "question": "¿Cuál de los siguientes métodos se utiliza para redondear un número al entero más cercano en JavaScript?",
+            "options": [
+            "round()",
+            "ceil()",
+            "floor()",
+            "random()"
+            ],
+            "answer": "round()"
+        },
+        {
+            "id": 12,
+        "question": "¿Cuál de las siguientes opciones muestra la forma correcta de acceder a un elemento en un objeto en JavaScript?",
+        "options": [
+            "object[element]",
+            "object.element",
+            "object{element}",
+            "objectelement"
+            ],
+        "answer": "object.element"
+        },
+        {
+            "id": 13,
             "question": "¿Cuál de los siguientes métodos se utiliza para eliminar un elemento específico de un arreglo en JavaScript?",
             "options": [
                 "remove()",
@@ -128,9 +141,10 @@
                 "splice()",
                 "erase()"
             ],
-            "answer": "c"
-            },
-            {
+        "answer": "c"
+        },
+        {
+            "id": 14,
             "question": "¿Cuál de los siguientes métodos se utiliza para convertir una cadena en un arreglo en JavaScript?",
             "options": [
                 "split()",
@@ -138,9 +152,10 @@
                 "concatenate()",
                 "slice()"
             ],
-            "answer": "split()" 
-            },
-            {
+        "answer": "split()" 
+        },
+        {
+            "id": 15,
             "question": "¿Cuál de los siguientes métodos se utiliza para convertir una cadena en un número entero en JavaScript?",
             "options": [
                 "parseInt()",
@@ -148,9 +163,10 @@
                 "toInteger()",
                 "toNumber()"
             ],
-            "answer": "parseInt()"
-            },
-            {
+        "answer": "parseInt()"
+        },
+        {
+            "id": 16,
             "question": "¿Cuál de las siguientes opciones muestra la forma correcta de iterar sobre un arreglo en JavaScript?",
             "options": [
                 "for (let i = 0; i < array.length; i++)",
@@ -158,9 +174,10 @@
                 "for (let key in array)",
                 "forEach(callbackFunction)"
             ],
-            "answer": "for (let i = 0; i < array.length; i++)"
-            },
-            {
+        "answer": "for (let i = 0; i < array.length; i++)"
+        },
+        {
+            "id": 17,
             "question": "¿Cuál de los siguientes métodos se utiliza para encontrar el índice de un elemento en un arreglo en JavaScript?",
             "options": [
                 "indexOf()",
@@ -169,8 +186,9 @@
                 "elementIndex()"
             ],
             "answer": "indexOf()"
-            },
-            {
+        },
+        {
+            "id": 18,
             "question": "¿Cuál de los siguientes métodos se utiliza para generar un número aleatorio en JavaScript?",
             "options": [
                 "random()",
@@ -179,8 +197,9 @@
                 "getRandom()"
             ],
             "answer": "random()"
-            },
-            {
+        },
+        {
+            "id": 19,
             "question": "¿Cuál de los siguientes operadores se utiliza para concatenar cadenas en JavaScript?",
             "options": [
                 "+",
@@ -189,8 +208,9 @@
                 "/"
             ],
             "answer": "+"
-            },
-            {
+        },
+        {
+            "id": 19,
             "question": "¿Cuál de los siguientes métodos se utiliza para obtener una subcadena de una cadena en JavaScript?",
             "options": [
                 "substring()",
@@ -199,8 +219,9 @@
                 "substr()"
             ],
             "answer": "substring()"
-            },
-            {
+        },
+        {
+            "id": 20,
             "question": "¿Cuál de los siguientes métodos se utiliza para eliminar un elemento específico de un arreglo en JavaScript?",
             "options": [
                 "remove()",
@@ -209,8 +230,9 @@
                 "erase()"
             ],
             "answer": "splice()"
-            },
-            {
+        },
+        {
+            "id": 21,
             "question": "¿Cuál de los siguientes métodos se utiliza para convertir una cadena en un arreglo en JavaScript?",
             "options": [
                 "split()",
@@ -219,8 +241,9 @@
                 "slice()"
             ],
             "answer": "split()"
-            },
-            {
+        },
+        {
+            "id": 22,
             "question": "¿Cuál de los siguientes métodos se utiliza para convertir una cadena en un número entero en JavaScript?",
             "options": [
                 "parseInt()",
@@ -229,8 +252,9 @@
                 "toNumber()"
             ],
             "answer": "parseInt()"
-            },
-            {
+        },
+        {
+            "id": 23,
             "question": "¿Cuál de las siguientes opciones muestra la forma correcta de iterar sobre un arreglo en JavaScript?",
             "options": [
                 "for (let i = 0; i < array.length; i++)",
@@ -239,8 +263,9 @@
                 "forEach(callbackFunction)"
             ],
             "answer": "for (let i = 0; i < array.length; i++)"
-            },
-            {
+        },
+        {
+            "id": 24,
             "question": "¿Cuál de los siguientes métodos se utiliza para encontrar el índice de un elemento en un arreglo en JavaScript?",
             "options": [
                 "indexOf()",
@@ -249,8 +274,9 @@
                 "elementIndex()"
             ],
             "answer": "indexOf()"
-            },
-            {
+        },
+        {
+            "id": 25,
             "question": "¿Cuál es el resultado de la siguiente expresión en JavaScript? 10 % 3",
             "options": [
                 "1",
@@ -259,8 +285,10 @@
                 "0"
             ],
             "answer": "1"
-            },
-            {
+        },
+
+        {
+            "id": 26,
             "question": "¿Cuál de los siguientes métodos se utiliza para convertir un número a una cadena en JavaScript?",
             "options": [
                 "toString()",
@@ -269,8 +297,9 @@
                 "toPrecision()"
             ],
             "answer": "toString()"
-            },
-            {
+        },
+        {
+            "id": 27,
             "question": "¿Cuál de los siguientes métodos se utiliza para eliminar el primer elemento de un arreglo en JavaScript?",
             "options": [
                 "shift()",
@@ -279,8 +308,9 @@
                 "slice()"
             ],
             "answer": "shift()"
-            },
-            {
+        },
+        {
+            "id": 28,
             "question": "¿Cuál de los siguientes métodos se utiliza para reemplazar una parte de una cadena con otra en JavaScript?",
             "options": [
                 "replace()",
@@ -289,8 +319,9 @@
                 "splice()"
             ],
             "answer": "replace()"
-            },
-            {
+        },
+        {
+            "id": 29,
             "question": "¿Cuál de los siguientes métodos se utiliza para convertir una cadena en un número de punto flotante en JavaScript?",
             "options": [
                 "parseFloat()",
@@ -299,6 +330,7 @@
                 "toFloat()"
             ],
             "answer": "parseFloat()"
-            }
-    ]
+        }
+    ],
+    "time": 15
 }
