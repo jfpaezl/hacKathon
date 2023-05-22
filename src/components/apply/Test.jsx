@@ -18,7 +18,6 @@ export function Test () {
     };
     return(
         <TestCss>
-
             <Modal isOpen={modalOpen} onClose={closeModal}>
                 <form id="formulario">
                         {
@@ -45,7 +44,7 @@ export function Test () {
                                 </div>
                             ))
                         }   
-                    <input type="submit" value="Enviar"/>
+                    <input className='button' type="submit" value="Finalizar Prueba"/>
                 </form>
             </Modal>
         </TestCss>
@@ -62,5 +61,30 @@ export const TestCss = styled.section`
         display: flex;
         flex-direction: column;
         gap: 1rem;
+    }
+    h3{
+        user-select: none;
+        
+    }
+    input{
+        &:hover{
+            cursor: pointer;
+        }
+    }
+    label{
+        user-select: none;
+    }
+    .button{
+        background-color: var(--textButtons);
+        border: none;
+        width: fit-content;
+        padding: 1rem;
+        border-radius: .5rem;
+        color: white;
+        font-size: 1.5rem;
+        font-weight: 600;
+        &:hover{
+            background-color: var(--fondoButtons);
+        }
     }
 `
