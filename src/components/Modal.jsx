@@ -1,4 +1,5 @@
 import { styled } from "styled-components";
+import { Close } from "../styles/Iconos";
 
 const Modal = ({ isOpen, onClose, children }) => {
     if (!isOpen) return null;
@@ -6,7 +7,9 @@ const Modal = ({ isOpen, onClose, children }) => {
     return (
       <ModalCss>
         <div className="modal-content">
-            <span className="close" onClick={onClose}>&times;</span>
+            <div className="contentClose">
+                <Close onClick={onClose} className="close"/>
+            </div>
             {children}
         </div>
       </ModalCss>
@@ -52,6 +55,18 @@ export const ModalCss = styled.div`
         &::-webkit-scrollbar-track {
             background-color: var(--hoberButtons); /* Color del track */
             border-radius: 4px; /* Borde redondeado del track */
+        }
+        .contentClose{
+            width: 100%;
+            display: flex;
+            justify-content: end;
+        }
+        .close{
+            color: var(--textButtons);
+            &:hover{
+                cursor: pointer;
+
+            }
         }
     }
 

@@ -4,7 +4,6 @@ import { File } from "../../styles/Iconos"
 
 //importar servicios
 import { TiempoTranscurrido } from "../../services/CalcTime";
-import { Test } from "./Test";
 
 export function ApplyOffer (){
     const tiempo = TiempoTranscurrido(oferta.creationDate)
@@ -80,7 +79,6 @@ export function ApplyOffer (){
                     </li>
                 </ul>
             </section>
-            <Test/>
         </ApplyOfferCss>
     )
 }
