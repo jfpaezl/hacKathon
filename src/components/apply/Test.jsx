@@ -25,21 +25,21 @@ export function Test () {
 
                                 <div className='containerQuestion' key={index}>
                                     <h3>{question.question}</h3>
-                                    <div>
+                                    <div className='contentCheck'>
                                         <input type="radio" id={`opcion1_pregunta${question.id}`} name={`pregunta${question.id}`} value="opcion1"/>
                                         <label htmlFor={`opcion1_pregunta${question.id}`}>{question.options[0]}</label>
                                     </div>
-                                    <div>
+                                    <div className='contentCheck'>
                                         <input type="radio" id={`opcion2_pregunta${question.id}`} name={`pregunta${question.id}`} value="opcion2"/>
-                                        <label htmlFor="opcion2_pregunta1">{question.options[1]}</label>
+                                        <label htmlFor={`opcion2_pregunta${question.id}`}>{question.options[1]}</label>
                                     </div>
-                                    <div>
+                                    <div className='contentCheck'>
                                         <input type="radio" id={`opcion3_pregunta${question.id}`} name={`pregunta${question.id}`} value="opcion3"/>
-                                        <label htmlFor="opcion3_pregunta1">{question.options[2]}</label>
+                                        <label htmlFor={`opcion3_pregunta${question.id}`}>{question.options[2]}</label>
                                     </div>
-                                    <div>
+                                    <div className='contentCheck'>
                                         <input type="radio" id={`opcion4_pregunta${question.id}`} name={`pregunta${question.id}`} value="opcion4"/>
-                                        <label htmlFor="opcion3_pregunta1">{question.options[3]}</label>
+                                        <label htmlFor={`opcion4_pregunta${question.id}`}>{question.options[3]}</label>
                                     </div>
                                 </div>
                             ))
@@ -67,14 +67,22 @@ export const TestCss = styled.section`
         
     }
     input{
+        
+    }
+    input:checked + label{
+        color: var(--textButtons);
+        font-weight: 600;
+        border-bottom: solid 2px ;
+    }
+    label{
+        user-select: none;
+        border-radius: .5rem;
         &:hover{
             cursor: pointer;
         }
     }
-    label{
-        user-select: none;
-    }
     .button{
+        display: block;
         background-color: var(--textButtons);
         border: none;
         width: fit-content;
@@ -84,6 +92,7 @@ export const TestCss = styled.section`
         font-size: 1.5rem;
         font-weight: 600;
         &:hover{
+            cursor: pointer;
             background-color: var(--fondoButtons);
         }
     }

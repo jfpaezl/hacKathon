@@ -63,6 +63,8 @@ export const ModalCss = styled.div`
         }
         .close{
             color: var(--textButtons);
+            width: 3rem;
+            height: 3rem;
             &:hover{
                 cursor: pointer;
 
