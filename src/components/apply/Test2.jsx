@@ -3,17 +3,15 @@ import styled from "styled-components"
 import Modal from '../Modal';
 import testJS from '../../resoult/javaScriptTest.json'
 import { getRandomItems } from '../../services/RandomList'
-import { useTemporizador } from '../../hocks/useTemporizador'
 
-export function Test () {
+
+export function Test2 () {
     const lista = testJS.JavaScript
-    const { horas, minutos, segundos } = useTemporizador(60*testJS.time)
-    const claseTiempo = minutos < 3 ? 'temp temp2': 'temp'
     const testJavaScript = getRandomItems(lista, 15)
     const [modalOpen, setModalOpen] = useState(false);
 
     const openModal = () => {
-      setModalOpen(true);
+      setModalOpen(true);   
     };
   
     const closeModal = () => {
@@ -24,19 +22,9 @@ export function Test () {
             <h2 className='h2'>Realiza los test para demostrar tus conocimientos al reclutador</h2>
             <button onClick={openModal} value='JavaScript'>JavaScript</button>
             <Modal isOpen={modalOpen} onClose={closeModal}>
-                <form id="formulario">
-                    <div className={claseTiempo}>
-                        <span>
-                            {
-                            horas != 0 ? `${horas}:${minutos}:${segundos}`:
-                            minutos != 0 ? `${minutos}:${segundos}`: 
-                            segundos
-                            }
-                        </span>
-                    </div>
+                    <form id="formulario">
                         {
                             testJavaScript.map((question, index) =>(
-
                                 <div className='containerQuestion' key={index}>
                                     <h3>{question.question}</h3>
                                     <div className='contentCheck'>
@@ -88,24 +76,7 @@ export const TestCss = styled.section`
             background-color: var(--textButtons);
         }
     }
-    .temp{
-        position: absolute;
-        left: 50%;
-        top: 5rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 1.5rem;
-        font-weight: 600;
-        padding: 1rem;
-        color: var(--textEtiqueta);
-        background-color: var(--hoberButtons);
-        border: solid 1px var(--textEtiqueta);
-        border-radius: .5rem;
-    }
-    .temp2{
-        color: #960505;
-    }
+
     form{
         display: flex;
         flex-direction: column;

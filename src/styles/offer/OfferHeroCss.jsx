@@ -50,6 +50,10 @@ export const OfferHeroCss = styled.section`
             width: 100%;
             height: 100%;
         }
+        .link{
+            text-decoration: none;
+            color: #ffffff;
+        }
         button{
             max-width: 23rem;
             height: 4rem;

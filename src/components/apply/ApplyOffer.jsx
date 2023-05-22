@@ -1,4 +1,5 @@
 import { styled } from "styled-components"
+import { Test } from "../../components/apply/Test";
 import oferta from '../../resoult/specificOffer.json'
 import { File } from "../../styles/Iconos"
 
@@ -35,12 +36,12 @@ export function ApplyOffer (){
                     <fieldset>
                         <h2>CV adjunto (Opcional)</h2>
                         <div>
-                            <input type="radio" name="opcion" value="opcion3" id="opcion3" />
-                            <label htmlFor="opcion3">No incluir CV adjunto</label>
+                            <input type="radio" name="opcion2" value="opcion3" id="opcion3" />
+                            <label htmlFor="opcion3">No incluir carta</label>
                         </div>
                         <div>
-                            <input type="radio" name="opcion" value="opcion4" id="opcion4" />
-                            <label htmlFor="opcion4">Incluir CV adjunto</label>
+                            <input type="radio" name="opcion2" value="opcion4" id="opcion4" />
+                            <label htmlFor="opcion4">Crear una carta</label>
                         </div>
                     </fieldset>
                     <div className="boton">
@@ -50,34 +51,37 @@ export function ApplyOffer (){
                     </div> 
                 </form>
             </section>
-            <section className="container">   
-                <h3>Datos de la oferta</h3>
-                <ul>
-                    <li>
-                        <strong>Empresa</strong>
-                        <p>{oferta.profile.name}</p>
-                    </li>
-                    <li>
-                        <strong>Localización</strong>
-                        <p>{oferta.city}, <span className='c1'>{oferta.profile.province.value}</span> ({oferta.profile.country.value})</p>
-                    </li>
-                    <li>
-                        <strong>Salario</strong>
-                        <p>{oferta.salaryDescription}</p>
-                    </li>
-                    <li>
-                        <strong>Fecha de publicación</strong>
-                        <p>{tiempo}</p>
-                    </li>
-                    <li>
-                        <strong>Experiencia mínima</strong>
-                        <p>{oferta.experienceMin.value}</p>
-                    </li>
-                    <li>
-                        <strong>Tipo de contrato</strong>
-                        <p>{oferta.contractType.value}, jornada {oferta.journey.value}</p>
-                    </li>
-                </ul>
+            <section className="container">
+                <div>
+                    <h3>Datos de la oferta</h3>
+                    <ul>
+                        <li>
+                            <strong>Empresa</strong>
+                            <p>{oferta.profile.name}</p>
+                        </li>
+                        <li>
+                            <strong>Localización</strong>
+                            <p>{oferta.city}, <span className='c1'>{oferta.profile.province.value}</span> ({oferta.profile.country.value})</p>
+                        </li>
+                        <li>
+                            <strong>Salario</strong>
+                            <p>{oferta.salaryDescription}</p>
+                        </li>
+                        <li>
+                            <strong>Fecha de publicación</strong>
+                            <p>{tiempo}</p>
+                        </li>
+                        <li>
+                            <strong>Experiencia mínima</strong>
+                            <p>{oferta.experienceMin.value}</p>
+                        </li>
+                        <li>
+                            <strong>Tipo de contrato</strong>
+                            <p>{oferta.contractType.value}, jornada {oferta.journey.value}</p>
+                        </li>
+                    </ul>
+                </div>   
+                <Test/>
             </section>
         </ApplyOfferCss>
     )
@@ -170,7 +174,9 @@ export const ApplyOfferCss = styled.div`
     .input{
         display: none;
     }
-
+    label, input{
+        cursor: pointer;
+    }
     ul{
         padding-left: 2rem;
         font-size: 1.3rem;

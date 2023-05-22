@@ -1,7 +1,6 @@
 import { connect } from "react-redux";
 import { styled } from "styled-components";
 import Layout from "../../hocks/layout/Layout";
-import { Test } from "../../components/apply/Test";
 import { ApplyOffer } from "../../components/apply/ApplyOffer";
 
 
@@ -10,7 +9,6 @@ function Apply (){
         <Layout>
             <ApplyCss>
                 <ApplyOffer/>
-                <Test/>
             </ApplyCss>
         </Layout>
     )

@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import { Link } from 'react-router-dom';
 import oferta from '../../resoult/specificOffer.json'
 import { Facebook, Linkedin, Twitter } from "../../styles/Iconos"
 
@@ -63,7 +64,7 @@ export function OfferMain () {
                 <strong className="info">Realiza la prueba técnica, puede que te ayude a demostrar tus conocimientos</strong>
                 <div className="boton">
                     <button >
-                        INSCRIBIRME EN ESTA OFERTA
+                        <Link className='link' to='/aplicar'>INSCRIBIRME EN ESTA OFERTA</Link> 
                     </button>
                 </div> 
             </section>
@@ -179,5 +180,9 @@ export const OfferMainCss = styled.main`
             background-color: var(--fondoMain);
             border-radius: .5rem;
         }
+    }
+    .link{
+        text-decoration: none;
+        color: #ffffff;
     }
 `

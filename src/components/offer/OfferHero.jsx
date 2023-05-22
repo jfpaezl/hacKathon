@@ -1,5 +1,6 @@
 //importar estilos
 import { OfferHeroCss } from '../../styles/offer/OfferHeroCss'
+import { Link } from 'react-router-dom';
 
 //importar servicios
 import { TiempoTranscurrido } from "../../services/CalcTime";
@@ -32,7 +33,7 @@ export function OfferHero ({oferta}) {
                 </ul>
                 <div className="boton">
                     <button >
-                        INSCRIBIRME EN ESTA OFERTA
+                        <Link className='link' to='/aplicar'>INSCRIBIRME EN ESTA OFERTA</Link> 
                     </button>
                 </div> 
             </div>                    
