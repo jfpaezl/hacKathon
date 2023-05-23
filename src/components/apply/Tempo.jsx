@@ -1,3 +1,4 @@
+import testJS from '../../resoult/javaScriptTest.json'
 import { useTemporizador } from '../../hocks/useTemporizador'
 import { styled } from 'styled-components'
 

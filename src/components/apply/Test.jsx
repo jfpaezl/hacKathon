@@ -1,16 +1,27 @@
-import React, { useState } from 'react';
+import React, { useState, useCallback } from 'react';
 import styled from "styled-components"
 import Modal from '../Modal';
-import testJS from '../../resoult/javaScriptTest.json'
-import { getRandomItems } from '../../services/RandomList'
-import { useTemporizador } from '../../hocks/useTemporizador'
+import { Form } from './Form';
+import { Tempo } from './Tempo';
 
 export function Test () {
-    const lista = testJS.JavaScript
-    const { horas, minutos, segundos } = useTemporizador(60*testJS.time)
-    const claseTiempo = minutos < 3 ? 'temp temp2': 'temp'
-    const testJavaScript = getRandomItems(lista, 15)
+    
     const [modalOpen, setModalOpen] = useState(false);
+    const [formData, setFormData] = useState({});
+
+    const handleChange = useCallback ((e) => {
+        const { name, value } = e.target;
+        setFormData((prevData) => ({
+            ...prevData,
+            [name]: value,
+        }));
+    }, []);
+  
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        console.log(formData);
+        const datos = formData;
+    };
 
     const openModal = () => {
       setModalOpen(true);
@@ -24,40 +35,9 @@ export function Test () {
             <h2 className='h2'>Realiza los test para demostrar tus conocimientos al reclutador</h2>
             <button onClick={openModal} value='JavaScript'>JavaScript</button>
             <Modal isOpen={modalOpen} onClose={closeModal}>
-                <form id="formulario">
-                    <div className={claseTiempo}>
-                        <span>
-                            {
-                            horas != 0 ? `${horas}:${minutos}:${segundos}`:
-                            minutos != 0 ? `${minutos}:${segundos}`: 
-                            segundos
-                            }
-                        </span>
-                    </div>
-                        {
-                            testJavaScript.map((question, index) =>(
-
-                                <div className='containerQuestion' key={index}>
-                                    <h3>{question.question}</h3>
-                                    <div className='contentCheck'>
-                                        <input type="radio" id={`opcion1_pregunta${question.id}`} name={`pregunta${question.id}`} value="opcion1"/>
-                                        <label htmlFor={`opcion1_pregunta${question.id}`}>{question.options[0]}</label>
-                                    </div>
-                                    <div className='contentCheck'>
-                                        <input type="radio" id={`opcion2_pregunta${question.id}`} name={`pregunta${question.id}`} value="opcion2"/>
-                                        <label htmlFor={`opcion2_pregunta${question.id}`}>{question.options[1]}</label>
-                                    </div>
-                                    <div className='contentCheck'>
-                                        <input type="radio" id={`opcion3_pregunta${question.id}`} name={`pregunta${question.id}`} value="opcion3"/>
-                                        <label htmlFor={`opcion3_pregunta${question.id}`}>{question.options[2]}</label>
-                                    </div>
-                                    <div className='contentCheck'>
-                                        <input type="radio" id={`opcion4_pregunta${question.id}`} name={`pregunta${question.id}`} value="opcion4"/>
-                                        <label htmlFor={`opcion4_pregunta${question.id}`}>{question.options[3]}</label>
-                                    </div>
-                                </div>
-                            ))
-                        }   
+                <form id="formulario" onSubmit={handleSubmit}>
+                    <Tempo/>
+                    <Form change={handleChange}/>
                     <input className='button' type="submit" value="Finalizar Prueba"/>
                 </form>
             </Modal>
