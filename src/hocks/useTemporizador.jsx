@@ -9,7 +9,14 @@ export function useTemporizador(tiempoInicial) {
 
   useEffect(() => {
     temporizadorRef.current = setInterval(() => {
-      setTiempoRestante((prevTiempo) => prevTiempo - 1);
+      setTiempoRestante((prevTiempo) => {
+        if (prevTiempo > 0) {
+          return prevTiempo - 1;
+        } else {
+          clearInterval(temporizadorRef.current);
+          return 0;
+        }
+      });
     }, 1000);
 
     return () => {

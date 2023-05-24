@@ -2,9 +2,12 @@ import testJS from '../../resoult/javaScriptTest.json'
 import { useTemporizador } from '../../hocks/useTemporizador'
 import { styled } from 'styled-components'
 
-export function Tempo (){
+export function Tempo ({finish}){
     const { horas, minutos, segundos } = useTemporizador(60*testJS.time)
     const claseTiempo = minutos < 3 ? 'temp temp2': 'temp'
+    if (horas === 0 && minutos === 0 && segundos === 0){
+        finish
+    }
     return(
         <TempoCss>
             <div className={claseTiempo}>

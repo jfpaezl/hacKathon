@@ -210,7 +210,7 @@
             "answer": "+"
         },
         {
-            "id": 19,
+            "id": 20,
             "question": "¿Cuál de los siguientes métodos se utiliza para obtener una subcadena de una cadena en JavaScript?",
             "options": [
                 "substring()",
@@ -221,7 +221,7 @@
             "answer": "substring()"
         },
         {
-            "id": 20,
+            "id": 21,
             "question": "¿Cuál de los siguientes métodos se utiliza para eliminar un elemento específico de un arreglo en JavaScript?",
             "options": [
                 "remove()",
@@ -232,7 +232,7 @@
             "answer": "splice()"
         },
         {
-            "id": 21,
+            "id": 22,
             "question": "¿Cuál de los siguientes métodos se utiliza para convertir una cadena en un arreglo en JavaScript?",
             "options": [
                 "split()",
@@ -243,7 +243,7 @@
             "answer": "split()"
         },
         {
-            "id": 22,
+            "id": 23,
             "question": "¿Cuál de los siguientes métodos se utiliza para convertir una cadena en un número entero en JavaScript?",
             "options": [
                 "parseInt()",
@@ -254,7 +254,7 @@
             "answer": "parseInt()"
         },
         {
-            "id": 23,
+            "id": 24,
             "question": "¿Cuál de las siguientes opciones muestra la forma correcta de iterar sobre un arreglo en JavaScript?",
             "options": [
                 "for (let i = 0; i < array.length; i++)",
@@ -265,7 +265,7 @@
             "answer": "for (let i = 0; i < array.length; i++)"
         },
         {
-            "id": 24,
+            "id": 25,
             "question": "¿Cuál de los siguientes métodos se utiliza para encontrar el índice de un elemento en un arreglo en JavaScript?",
             "options": [
                 "indexOf()",
@@ -276,7 +276,7 @@
             "answer": "indexOf()"
         },
         {
-            "id": 25,
+            "id": 26,
             "question": "¿Cuál es el resultado de la siguiente expresión en JavaScript? 10 % 3",
             "options": [
                 "1",
@@ -288,7 +288,7 @@
         },
 
         {
-            "id": 26,
+            "id": 27,
             "question": "¿Cuál de los siguientes métodos se utiliza para convertir un número a una cadena en JavaScript?",
             "options": [
                 "toString()",
@@ -299,7 +299,7 @@
             "answer": "toString()"
         },
         {
-            "id": 27,
+            "id": 28,
             "question": "¿Cuál de los siguientes métodos se utiliza para eliminar el primer elemento de un arreglo en JavaScript?",
             "options": [
                 "shift()",
@@ -310,7 +310,7 @@
             "answer": "shift()"
         },
         {
-            "id": 28,
+            "id": 29,
             "question": "¿Cuál de los siguientes métodos se utiliza para reemplazar una parte de una cadena con otra en JavaScript?",
             "options": [
                 "replace()",
@@ -321,7 +321,7 @@
             "answer": "replace()"
         },
         {
-            "id": 29,
+            "id": 30,
             "question": "¿Cuál de los siguientes métodos se utiliza para convertir una cadena en un número de punto flotante en JavaScript?",
             "options": [
                 "parseFloat()",
