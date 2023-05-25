@@ -5,7 +5,6 @@ import { Provider } from "react-redux"
 import Error404 from "./containers/errors/Error404"
 import Home from "./containers/pages/Home"
 import Apply from "./containers/pages/Apply"
-import Prueba from "./containers/pages/Prueba"
 
 function App() {
 
@@ -16,7 +15,6 @@ function App() {
           <Route path="*" element={<Error404/>}/>
           <Route path="/" element={<Home/>}/>
           <Route path="/aplicar" element={<Apply/>}/>
-          <Route path="/prueba" element={<Prueba/>}/>
         </Routes>
       </Router>
     </Provider>
