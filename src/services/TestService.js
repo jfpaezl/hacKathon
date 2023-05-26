@@ -64,5 +64,6 @@ export function TestService() {
     handleSubmit,
     openModal,
     closeModal,
+    calcR,
   };
 }
