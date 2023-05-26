@@ -1,6 +1,5 @@
 Aquí está un video de demostración de mi proyecto:
-
-[![Video de demostración]([https://www.youtube.com/watch?v=TU_ID_DE_YOUTUBE](https://www.youtube.com/watch?v=yaL68HlTlao&t=289s))
+[![Video de demostración](https://img.youtube.com/vi/TU_ID_DE_YOUTUBE/0.jpg)](https://www.youtube.com/watch?v=yaL68HlTlao&t=289s){.youtube}
 
 # Test de Conocimientos InfoJobs
 
